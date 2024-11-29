@@ -1,0 +1,14 @@
+{% extends 'website/base.html' %}
+{% load static %}
+{% block content %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <div class="container mt-5 p-4 border bg-light" style="max-width: 780px; padding-left: 60px; padding-right: 60px;">
+        <h1>Add Staff Member</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button class="btn-one" type="submit">Apply For A Job</button>
+        </form>
+    </div>
+
+{% endblock %}

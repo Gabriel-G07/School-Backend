@@ -1,0 +1,88 @@
+{% extends 'website/base.html' %}
+{% load static %}
+{% block content %}
+
+    <!-- contact section -->
+    <section class="contact-section contact-page sec-pad">
+        <div class="container">
+            <div class="team-title centred">
+                <div class="section-title"><h2>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #337ab7;">Contact Us</span></h2></div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-sm-12 col-xs-12 contact-column">
+                    <div class="contact-form-area">
+                        <!-- <div id="messages" class="hide" role="alert">
+<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <div id="messages_content"></div>
+            </div>-->
+                        <div class="contact-title">Get in Touch</div>
+    <form id="form" name="contact_form" class="default-form"  method="post" action="contact.php">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+        <input type="text" name="name" value="" placeholder="Name" required="">
+                                </div>
+    <div class="col-md-6 col-sm-6 col-xs-12">
+    <input type="email" name="email" value="" placeholder="Email" required="">
+                                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+<input type="number" name="phone" value="" placeholder="Phone" required="">
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-12">
+<input type="text" name="subject" value="" placeholder='Subject' required="">
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+    <textarea placeholder="Message" name="message" required=""></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn-one style-one radi" data-loading-text="Please wait..." name="contact">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 contact-column">
+                    <div class="contact-info">
+                        <div class="single-info">
+                            <div class="icon-box"><i class="flaticon-signs"></i></div>
+                            <div class="title">Address Info</div>
+                            <div class="text"><p>PO Box 16122 xyz</p></div>
+                        </div>
+         
+
+               <div class="single-info">
+                            <div class="icon-box"><i class="flaticon-phone-call"></i></div>
+                            <div class="title">Phone</div>
+                            <div class="text"><p>(+48) 564-334-21-22-34 <br />(+48) 564-334-21-25</p></div>
+                        </div>
+                        <div class="single-info">
+                            <div class="icon-box"><i class="flaticon-note"></i></div>
+                            <div class="title">Email</div>
+                            <div class="text"><a href="#">info@abcsecondaryschool.com</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section end -->
+
+
+    <!-- google map area -->
+    <section class="map-section">
+        <div class="google-map-area">
+            <div 
+                class="google-map" 
+                id="contact-google-map" 
+                data-map-lat="27.756776" 
+                data-map-lng="85.349201" 
+                data-icon-path="images/resources/map-marker.png" 
+                data-map-title="Hattigauda, Kathmandu, Nepal" 
+                data-map-zoom="12" 
+                data-markers='{
+                    "marker-1": [27.756776, 85.349201, "<h4>Branch Office</h4><p>Hattigauda,Kathmandu</p>","images/resources/map-marker.png"]
+                }'>
+
+            </div>
+        </div>
+    </section>
+    <!-- google map area end -->
+
+{% endblock %}

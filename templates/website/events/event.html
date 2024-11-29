@@ -1,0 +1,119 @@
+{% extends 'website/base.html' %}
+{% load static %}
+{% block content %}
+
+    <!-- event-section / our-event -->
+    <section class="event-section our-event">
+        <div class="container">
+            <div class="team-title centred">
+                <div class="section-title"><h2>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #337ab7;">Our Events</span></h2></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 event-column">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <a href="{% url 'event-details' %}"><figure><img src="{% static 'images/event/1.jpg' %}" alt=""></figure></a>
+                            <div class="date"><h3>25</h3><p>July</p></div>
+                        </div>
+                        <div class="lower-content">
+                            <h3><a href="{% url 'event-details' %}">Mauris Fommodo Aucib.</a></h3>
+                            <ul class="meta">
+                                <li><i class="fa fa-clock-o"></i>9am - 3pm</li>
+                                <li><i class="fa fa-map-marker"></i>60 Newyork City.</li>
+                            </ul>
+                            <div class="text"><p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt  labore dolore magna aliqua.</p></div>
+                            <div class="button"><a href="#">Read more</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 event-column">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <a href="{% url 'event-details' %}"><figure><img src="{% static 'images/event/2.jpg' %}" alt=""></figure></a>
+                            <div class="date"><h3>25</h3><p>July</p></div>
+                        </div>
+                        <div class="lower-content">
+                            <h3><a href="{% url 'event-details' %}">Justo Posuere Nec Mol.</a></h3>
+                            <ul class="meta">
+                                <li><i class="fa fa-clock-o"></i>9am - 3pm</li>
+                                <li><i class="fa fa-map-marker"></i>60 Newyork City.</li>
+                            </ul>
+                            <div class="text"><p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt  labore dolore magna aliqua.</p></div>
+                            <div class="button"><a href="#">Read more</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 event-column">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <a href="{% url 'event-details' %}"><figure><img src="{% static 'images/event/3.jpg' %}" alt=""></figure></a>
+                            <div class="date"><h3>25</h3><p>July</p></div>
+                        </div>
+                        <div class="lower-content">
+                            <h3><a href="{% url 'event-details' %}">Posuere Nec Mollis Elit.</a></h3>
+                            <ul class="meta">
+                                <li><i class="fa fa-clock-o"></i>9am - 3pm</li>
+                                <li><i class="fa fa-map-marker"></i>60 Newyork City.</li>
+                            </ul>
+                            <div class="text"><p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt  labore dolore magna aliqua.</p></div>
+                            <div class="button"><a href="#">Read more</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 event-column">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <a href="{% url 'event-details' %}"><figure><img src="{% static 'images/event/4.jpg' %}" alt=""></figure></a>
+                            <div class="date"><h3>25</h3><p>July</p></div>
+                        </div>
+                        <div class="lower-content">
+                            <h3><a href="{% url 'event-details' %}">Convallis enim vitae pure.</a></h3>
+                            <ul class="meta">
+                                <li><i class="fa fa-clock-o"></i>9am - 3pm</li>
+                                <li><i class="fa fa-map-marker"></i>60 Newyork City.</li>
+                            </ul>
+                            <div class="text"><p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt  labore dolore magna aliqua.</p></div>
+                            <div class="button"><a href="#">Read more</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 event-column">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <a href="{% url 'event-details' %}"><figure><img src="{% static 'images/event/5.jpg' %}" alt=""></figure></a>
+                            <div class="date"><h3>25</h3><p>July</p></div>
+                        </div>
+                        <div class="lower-content">
+                            <h3><a href="{% url 'event-details' %}">Vallis enim vitae purus.</a></h3>
+                            <ul class="meta">
+                                <li><i class="fa fa-clock-o"></i>9am - 3pm</li>
+                                <li><i class="fa fa-map-marker"></i>60 Newyork City.</li>
+                            </ul>
+                            <div class="text"><p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt  labore dolore magna aliqua.</p></div>
+                            <div class="button"><a href="#">Read more</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 event-column">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <a href="{% url 'event-details' %}"><figure><img src="{% static 'images/event/6.jpg' %}" alt=""></figure></a>
+                            <div class="date"><h3>25</h3><p>July</p></div>
+                        </div>
+                        <div class="lower-content">
+                            <h3><a href="{% url 'event-details' %}">Aliquet sollic tudine.</a></h3>
+                            <ul class="meta">
+                                <li><i class="fa fa-clock-o"></i>9am - 3pm</li>
+                                <li><i class="fa fa-map-marker"></i>60 Newyork City.</li>
+                            </ul>
+                            <div class="text"><p>Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt  labore dolore magna aliqua.</p></div>
+                            <div class="button"><a href="#">Read more</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- event-section / our-event end -->
+
+{% endblock %}
