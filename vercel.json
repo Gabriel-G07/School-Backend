@@ -1,12 +1,12 @@
 {
     "builds": [{
-        "srs": "MtSunset_Backend/wsgi.py",
+        "src": "MtSunset_Backend/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     }],
     "routes": [
         {
-            "srs": "/(.*)",
+            "src": "/(.*)",
             "dest": "MtSunset_Backend/wsgi.py"
         }
     ]
