@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-o@js3bzq6!#f*um-ca+4qicv01=v3j(w72&lxi74nz00d-3yu0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [".versel.app", "127.0.0.1"]
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
