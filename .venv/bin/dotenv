@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/media/doubleg/My Storage/My Projects/Computing/E Learning/Mount Sunset/Backend/.venv/bin/python3.10" "$0" "$@"
+'''exec' "/media/double-g/My Storage/My Projects/Computing/E Learning/Mount Sunset/Backend/.venv/bin/python" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re

@@ -1,4 +1,4 @@
-#!/media/doubleg/My Storage/My Projects/Computing/E Learning/Mount Sunset/Backend/.venv/bin/python3.10
+#!/media/double-g/My Storage/My Projects/Computing/E Learning/Mount Sunset/Backend/.venv/bin/python
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
